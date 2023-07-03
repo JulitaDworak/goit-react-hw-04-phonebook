@@ -11,12 +11,12 @@ export function ContactForm({contacts, onAddContact }) {
 
   const handleNumberChange = (event) => {
     setNumber(event.target.value);
-  };
+  }; 
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const existingContact = contacts.find(
-      (contact) => contact.name.toLowerCase() === name.toLowerCase()
+      (contact ) => contact.name.toLowerCase() === name.toLowerCase()
     );
 
     if (existingContact) {
