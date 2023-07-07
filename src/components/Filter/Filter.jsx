@@ -12,7 +12,7 @@ export function Filter({ value, onChange }) {
   );
 }
 
-export default Filter;
+export default Filter; 
 
 
 Filter.propTypes = {

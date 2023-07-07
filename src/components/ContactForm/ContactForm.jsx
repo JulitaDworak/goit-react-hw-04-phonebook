@@ -30,7 +30,7 @@ export function ContactForm({contacts, onAddContact }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input 
+      <input
         type="text"
         placeholder="Name"
         value={name}
